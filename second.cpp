@@ -280,7 +280,7 @@ int main()
 
                 auto elepsed_bin = duration_cast<nanoseconds>(endbin - startbin);
                 cout << "\n";
-                cout << "Elapsed time in nanoseconds: " << elepsed_bin.count() << "\n\n";
+                cout << "Elapsed time in nanoseconds (binary search): " << elepsed_bin.count() << "\n\n";
 
                 // перебор массива   
                 find = 0;
@@ -291,7 +291,7 @@ int main()
                     {
                         cout << "Number " << number << " " << "with index: " << i;
                         find++;
-
+                        break;
                     }
 
                 }
@@ -301,7 +301,7 @@ int main()
 
                 cout << "\n";
                 auto elepsed_enumeration = duration_cast<nanoseconds>(endenumeration - startenumeration);
-                cout << "Elapsed time in nanoseconds: " << elepsed_enumeration.count() << "\n";
+                cout << "Elapsed time in nanoseconds(simpl search): " << elepsed_enumeration.count() << "\n";
             }
             break;
 
