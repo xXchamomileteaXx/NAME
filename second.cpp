@@ -23,8 +23,9 @@ void quicksort(int* mas, int  endmas, int begin)
         }
 
     }
-    if (begin < right) quicksort(mas, right, begin); // продолжение сортировки элементов слева от опорного
-    if (left < endmas) quicksort(mas, endmas, left); // продолжение сортировки элементов справа от опорного
+    // продолжение сортировки элементов,если остались неотсортированные
+    if (begin < right) quicksort(mas, right, begin); 
+    if (left < endmas) quicksort(mas, endmas, left);
 
 }
 
