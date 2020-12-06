@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <conio.h>
 #include <Windows.h>
 
@@ -14,7 +14,6 @@ void koordp1(int* k1)
 {
     *k1 += 3;
 }
-
 void koordp2(int* k2)
 {
     *k2 += 2;
@@ -381,11 +380,9 @@ int main()
         if (task == 3)
         {
             system("cls");
-            int* pa = a[0];
             cout << "Unsorted array:\n\n";
             for (int i = 0; i < n * n; i++)
             {
-                *(pa + i) = rand() % 10;
                 cout << *(pa + i) << " ";
                 if (i != 0 && (i + 1) % n == 0)
                     cout << "\n";
@@ -461,6 +458,7 @@ int main()
                 case 1:
                     cout << "Enter number: ";
                     cin >> ch;
+                    cout << "\n";
                     if (ch != 0)
                     {
                         for (int i = 0; i < n; i++)
@@ -491,6 +489,7 @@ int main()
                 case 2:
                     cout << "Enter number: ";
                     cin >> ch;
+                    cout << "\n";
                     for (int i = 0; i < n; i++)
                     {
                         for (int j = 0; j < n; j++)
@@ -517,6 +516,7 @@ int main()
                 case 3:
                     cout << "Enter number: ";
                     cin >> ch;
+                    cout << "\n";
                     for (int i = 0; i < n; i++)
                     {
                         for (int j = 0; j < n; j++)
@@ -543,6 +543,7 @@ int main()
                 case 4:
                     cout << "Enter number: ";
                     cin >> ch;
+                    cout << "\n";
                     for (int i = 0; i < n; i++)
                     {
                         for (int j = 0; j < n; j++)
@@ -579,4 +580,5 @@ int main()
     } while (task != 0);
     return 0;
 }
+
 
