@@ -92,6 +92,7 @@ int main()
             int k1 = 6, k2 = 2;
             int stp = 0;
             int l = 0;
+            
             //спираль
             for (int j = 0; j < n / 2; j++)
             {
