@@ -53,7 +53,7 @@ void check2(int n, int j)
 int main()
 {
     
-    int const n = 10;// работает для т = 6,8,10
+    int const n = 10;// работает для n = 6,8,10
     int a[n][n],buf[n][n];
     int  task;
     int* pa = a[0],*pbuf = buf[0];
