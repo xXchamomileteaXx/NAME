@@ -383,7 +383,7 @@ int main()
           }
       }
  
-  cin.sync();
+ 
   system("cls");
 
   do
