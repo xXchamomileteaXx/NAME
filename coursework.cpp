@@ -849,11 +849,11 @@ int main()
 
                     cout << "Enter number: ";
                     cout << "\n\nChoose task\n\n";
-                    cout << "(1)Fill in a quadratic integer matrix of order n\n\n";
-                    cout << "(2)Rearranging blocks of matrix\n\n";
-                    cout << "(3)Sort elements\n\n";
-                    cout << "(4)Reduces, increases, multiplies, or divides all elements of the matrix\n\n";
-                    cout << "(0)Exit\n\n";
+                    cout << "(1) Fill in a quadratic integer matrix of order n\n\n";
+                    cout << "(2) Rearranging blocks of matrix\n\n";
+                    cout << "(3) Sort elements\n\n";
+                    cout << "(4) Reduces, increases, multiplies, or divides all elements of the matrix\n\n";
+                    cout << "(0) Exit\n\n";
                     cout << "You entered: ";
                     cin >> task_lab3;
                     cout << "\n\n";system("cls");
@@ -1466,7 +1466,7 @@ int main()
                     cout << "(2) Print words in which the first letter of the word occurs in this word again\n\n";
                     cout << "(3) Print the same sequence by removing the specified set of letters and / or numbers from all words\n\n";
                     cout << "(4) Find the substring that was entered by the user in the existing string\n\n";
-                    cout << "(0)exit";
+                    cout << "(0) Exit";
                     cout << "\n\nYou entered: ";
 
                     cin >> task_lab4;
