@@ -856,7 +856,7 @@ int main()
                     cout << "(0)Exit\n\n";
                     cout << "You entered: ";
                     cin >> task_lab3;
-                    cout << "\n\n";
+                    cout << "\n\n";system("cls");
                     switch (task_lab3)
                     {
                     case 1:
