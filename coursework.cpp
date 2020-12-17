@@ -666,6 +666,7 @@ int main()
 
                         }
                         cout << "Quantity of elements: " << count;
+                        count = 0;
                         cout << "\n\n"; system("pause"); system("cls");
                         break;
 
